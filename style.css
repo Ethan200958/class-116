@@ -1,0 +1,27 @@
+h1 {
+    font-size: 100px;
+}
+
+.picture {
+    border: 2px red ridge;
+}
+
+.picture:hover {
+    background-color: red;     
+    border: 2px green ridge;
+}
+
+canvas {
+    margin-top: 100px;
+     animation-name: myAnimation;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+}
+
+@keyframes myAnimation {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow:1px 1px 38px yellow;}
+    from {box-shadow: 1px 1px 38px blue;}
+    to {box-shadow:1px 1px 38px green;}
+
+}
